@@ -1,0 +1,14 @@
+
+<table class="table" ><!-- //this is loop -->
+	<tr>
+		<th>ID</th>
+		<th>Item naem</th>
+		<th>item type</th>
+	</tr>
+	<tr *ngFor="let list of lists">
+	<td>{{ list.id }}</td>
+	<td>{{ list.item }}</td>
+	<td>{{ list.type }}</td>
+</tr>
+	
+</table>
